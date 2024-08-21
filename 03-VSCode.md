@@ -1,36 +1,31 @@
 # VSCode
 
-![](./images/03-VSCode_1.png)
+![](./images/03-VSCode_1.jpeg)
 
 
-Visual Studio Code (VS Code) is a popular code editor developed by Microsoft. It is lightweight, powerful, and supports various programming languages, making it a great choice for beginners and experienced developers alike. This guide will walk you through the installation process and some basic usage tips.
+Visual Studio Code (VS Code) is a popular code editor developed by Microsoft.
 
+## Workspace
 
-Simply put, it helps us write code.
+Now, please create a new folder in an appropriate location to store your code, for example: ~/Code.
 
-## Step 1: Downloading Visual Studio Code
+All the code you use in the future will be stored here.
 
-**Visit the Official Website**: Go to the&nbsp;[Visual Studio Code website](https://code.visualstudio.com/).
+## Install VS Code
 
-**Choose Your Operating System**: Click on the download button suitable for your operating system (Windows, macOS, or Linux).
+Go to the&nbsp;[Visual Studio Code website](https://code.visualstudio.com/) and download it and install it.
 
-**Download the Installer**: The installer will begin downloading automatically.
+Here is what it looks like
 
-## Step 2: Installing Visual Studio Code
+![](./images/03-VSCode_2.png)
 
-For macOS:
+## Install ‘code’ Command
 
-**Open the Downloaded File**: Locate the downloaded&nbsp;.dmg&nbsp;file and double-click it.
+Press command + shift + p, and input ’shell’, and click the first menu
 
-**Drag to Applications**: Drag the Visual Studio Code icon to the Applications folder.
+![](./images/03-VSCode_3.png)
 
-**Launch VS Code**: Open your Applications folder and double-click on Visual Studio Code to start it.
-
-## Step 3: Launching Visual Studio Code
-
-Open it from your Applications folder
-
-## Step 4: Basic Usage
+## Basic Usage
 
 ### 1. Opening a Folder or File
 

@@ -1,53 +1,106 @@
 # Laravel
 
-This article is still in the draft stage, so its content may change.## About
+![](./images/07-Laravel_1.jpeg)
 
-Laravel 是一个语法优雅、语义化强的 WEB 程序开发框架，它让软件开发变得更有趣味性和创造性。
-
-
-What is Laravel?
+## What is Laravel
 
 Laravel is a PHP framework. It provides many useful tools to help you build web applications quickly and easily.
 
-## 名字来源
+The word "Laravel" does not exist in English. How did this name come about? It is said that the creator of Laravel, Taylor Otwell, was inspired by Cair Paravel, the castle in the novel "The Chronicles of Narnia," and decided to name his framework Laravel.
 
-英语中并没有 Laravel 这个单词，这个名字是怎么来的呢？ 据说是因为 Laravel 的作者 Taylor Otwell 受到小说《纳尼亚传奇》中城堡凯尔帕拉瓦宫（Cair Paravel）的启发，决定使用 Laravel 来命名自己的框架。
+**If you encounter any issues, remember to check the official documentation for answers first.**[https://laravel.com/docs/11.x](https://laravel.com/docs/11.x)
 
-## Composer
+## Installation
+
+Before creating your first Laravel project, make sure that your local machine has PHP and Composer installed.
+
+### PHP
+
+Check if PHP is already installed
+
+php -vIf PHP is not installed, please follow the previous article to install PHP.
+
+### Composer
 
 Composer is a package manager for PHP. It helps you install and update the dependencies of your project.
 
-Open this page **[https://getcomposer.org/download/](https://getcomposer.org/download/)** and follow the steps to install Composer.
+Check if Composer is already installed
 
-### Install Composer
+It's a bit different here, Composer's -V is an uppercase V.composer -VAnd you will see：
 
-Composer is a package manager for PHP. It helps you install and update the dependencies of your project.
+Composer version 2.7.2 2024-03-11 17:12:18
+PHP version 8.3.3 (/opt/homebrew/Cellar/php/8.3.3_1/bin/php)If Composere is not installed, you will see:
 
-Open this page [https://getcomposer.org/download/](https://getcomposer.org/download/) and follow the steps to install Composer.
+command not found: composerIf that's the case, let's install it.
 
+Open the page: [https://getcomposer.org/download/](https://getcomposer.org/download/)
 
-Type:
+Run these commands:
 
-And you will see：
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"And
 
+sudo mv composer.phar /usr/local/bin/composerThat’s all!
 
-## Install Laravel
+### Node.js
 
-Follow the steps below to install Laravel and run it.
+A very useful software that many projects require, just install it!
 
-Make sure current directory is the root of this project, run the following code in the terminal app:
+You can use the following command to install Node.js:
 
-The output should be:
+brew install nodeAfter installation is complete, enter this code in the terminal app and hit enter to run.
 
-Install Laravel by running the following code in the terminal app:
+node -vIf you see the following output, congratulations! You have successfully installed Node.js.
 
-Now you have a directory named store-app in the current directory.
+v22.4.1### Laravel
 
-**bash**
+It's time to give our project a name.
 
-Enter the following code in the terminal app to run Laravel:
+How about this name: luckara?
 
-Open your browser and enter the following URL: **[http://127.0.0.1:8000](http://127.0.0.1:8000/)** to see the Laravel homepage.
+cd your_workspace_folder &amp;&amp; composer create-project laravel/laravel luckara## Run
+
+After the installation is complete, open the project with VSCode.
+
+cd luckara &amp;&amp; code .![](./images/07-Laravel_2.png)
+
+Click “New Terminal” to open the terminal
+
+![](./images/07-Laravel_3.png)
+
+Run the command “php artisan serve"
+
+![](./images/07-Laravel_4.png)
+
+Server running on [http://127.0.0.1:8000]. Then open your browser you will see the beautiful page
+
+![](./images/07-Laravel_5.png)
+
+## Upload to GitHub
+
+After installation is complete, open the project with GitHub Desktop:
+
+github .![](./images/07-Laravel_6.png)
+
+If you are not logged in, please log in to GitHub Desktop first.Click “create a repository"
+
+![](./images/07-Laravel_7.png)
+
+![](./images/07-Laravel_8.png)
+
+And, push it to GitHub
+
+![](./images/07-Laravel_9.png)
+
+![](./images/07-Laravel_10.png)
+
+## Browser the GitHub Page
+
+Finally, click “View on GitHub” to open the browser to see the project.
+
+![](./images/07-Laravel_11.png)
 
 ## References
 
