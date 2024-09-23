@@ -42,6 +42,16 @@ https://monica.im
 
 If you encounter any programming problems, try asking your AI assistant first.
 
+## About this Project
+
+This documentation is open-source, and you can view the source code here:
+
+https://github.com/nookery/Build-a-Website-with-Laravel
+
+Additionally, if you are interested in the rich text editor used in this documentation, here is the link:
+
+https://cofficlab.github.io/zh/juiceEditor/ 
+
 ## About the Author
 
 A person who enjoys learning and exploring.
