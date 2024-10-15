@@ -2,11 +2,37 @@
 
 This page documents the entire process of me developing a website that sells APIs.
 
-It is not a small project, but a complete project that can run in a production environment. Building such a project takes a long time, so please make sure you have enough patience.
+It is not a small project, but a complete project that can run in a production environment.
 
-It would be my great honor if it can help you. 🎉🎉🎉
+Building such a project takes a long time, so please make sure you have enough patience.
 
-Users in mainland China may encounter many problems, please make sure that your network can smoothly access certain international websites.
+Currently, this project is still in the development state.
+
+## Why
+
+Why do I write such a series of articles?
+
+To summarize the knowledge I have learned since I have studied in this field for many years
+
+To improve my English writing skills
+
+Very few public tutorials that describe the complete knowledge system. Most of them only talk about a small aspect
+
+My girlfriend wants to learn and she asked me to write a series of articles(She knows nothing about this field)
+
+The most import reason is:
+
+❗️❗️❗️To help others who want to learn this knowledge.
+
+🎉🎉🎉 It would be my great honor if it can help you.
+
+## Attentions
+
+Users in mainland China may encounter many problems, please make sure that your network can smoothly access international websites like:
+
+https://github.com
+
+https://hub.docker.com
 
 ## What does it include
 
@@ -42,21 +68,23 @@ https://monica.im
 
 If you encounter any programming problems, try asking your AI assistant first.
 
-## About this Project
+## About the Project
 
-This documentation is open-source, and you can view the source code here:
+Here is the GitHub project:
 
 https://github.com/nookery/Build-a-Website-with-Laravel
 
-Additionally, if you are interested in the rich text editor used in this documentation, here is the link:
+Feel free to raise a issue on GitHub, I will keep an eye on it.
 
-https://cofficlab.github.io/zh/juiceEditor/ 
+✨✨✨ And do not forget to star the project if you found it helpful.
 
 ## About the Author
 
 A person who enjoys learning and exploring.
 
-Here is the GitHub profile: https://github.com/nookery.
+Here is the GitHub profile:
+
+https://github.com/nookery
 
 ## Table Of Contents
 
