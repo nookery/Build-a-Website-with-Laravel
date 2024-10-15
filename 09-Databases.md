@@ -184,7 +184,7 @@ DB:: transaction(function () {
 
         'user_id' =&gt; $user -&gt; id,
 
-        'bio' =&gt; 'This is John's profile',
+        'bio' =&gt; 'This is John\'s profile',
 
     ]);
 
