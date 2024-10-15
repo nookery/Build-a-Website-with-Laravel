@@ -17,7 +17,7 @@ For example, if you want to store logs as a new file every day, you can configur
 
 In the code, you can use the&nbsp;Log&nbsp;facade to record logs. Laravel provides different log levels, including&nbsp;debug,&nbsp;info,&nbsp;notice,&nbsp;warning,&nbsp;error,&nbsp;critical, and&nbsp;alert.
 
-use IlluminateSupportFacadesLog;
+use Illuminate\Support\Facades\Log;
 
 Log::debug('This is a debug message');
 Log::info('This is a general information');
@@ -35,7 +35,7 @@ public function store(Request $request)
     try {
         // Processing request logic
         Log::info('User submitted data');
-    } catch (Exception $e) {
+    } catch (\Exception $e) {
         Log::error('An error occurred while processing the request', ['exception' =&gt; $e]);
     }
 }## 5. Using Logs in Models
@@ -49,7 +49,7 @@ class User extends Model
         try {
             // Saving data logic
             Log::info('Saving user information');
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             Log::error('An error occurred while saving user information', ['data' =&gt; $data, 'exception' =&gt; $e]);
         }
     }
