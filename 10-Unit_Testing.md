@@ -28,9 +28,9 @@ class Calculator {
     } 
 }Now, we can write a unit test for this class:
 
-namespace TestsUnit; 
-use PHPUnitFrameworkTestCase; 
-use AppCalculator; 
+namespace Tests\Unit; 
+use PHPUnit\Framework\TestCase; 
+use App\Calculator; 
 
 class CalculatorTest extends TestCase { 
     public function testAdd() { 
