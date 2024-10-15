@@ -13,7 +13,7 @@ All the code you use in the future will be stored here.
 
 ## Install VS Code
 
-Go to the&nbsp;Visual Studio Code website and download it and install it.
+Go to the&nbsp;[Visual Studio Code website](https://code.visualstudio.com/) and download it and install it.
 
 Here is what it looks like
 
