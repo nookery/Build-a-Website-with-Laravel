@@ -22,9 +22,7 @@ brew install gitAfter installation is complete, enter this code in the terminal 
 
 git -vIf you see the following output, congratulations! You have successfully installed GIT.
 
-git version 2.39.3 (Apple Git-146)Look, many commands have a -v option.
-
-## Install GitHub Desktop
+git version 2.39.3 (Apple Git-146)Look, many commands have a -v option.## Install GitHub Desktop
 
 ![](./images/05-GitHub_1.png)
 
@@ -34,7 +32,7 @@ GitHub Desktop is a free and open-source graphical user interface for Git. It pr
 
 Simply put, it helps us manage code.
 
-Please refer to https://desktop.github.com for more information.
+Please refer to [https://desktop.github.com](https://desktop.github.com/) for more information.
 
 ## Install “github” Command
 
@@ -44,6 +42,6 @@ This command is very useful, let's install it.
 
 ## References
 
-https://github.com/apps/desktop
+[https://github.com/apps/desktop](https://github.com/apps/desktop)
 
-https://git-scm.com
+[https://git-scm.com](https://git-scm.com)
