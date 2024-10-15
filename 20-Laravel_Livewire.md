@@ -18,9 +18,9 @@ php artisan make:livewire MyComponentThis will create two files: a Blade view fi
 
 In MyComponent.php, you can define the component's properties and methods:
 
-namespace AppHttpLivewire;
+namespace App\Http\Livewire;
 
-use LivewireComponent;
+use Livewire\Component;
 
 class MyComponent extends Component {
 
