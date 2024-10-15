@@ -6,7 +6,7 @@ It is not a small project, but a complete project that can run in a production e
 
 Building such a project takes a long time, so please make sure you have enough patience.
 
-Currently, this project is still in the development state.
+Currently, this project is still in the development stage.
 
 ## Why
 
