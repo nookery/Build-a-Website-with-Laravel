@@ -1,8 +1,6 @@
 # API Store
 
-This article is still in the draft stage, so its content may change.
-
-It's time to build something amazing with Laravel.
+This article is still in the draft stage, so its content may change.It's time to build something amazing with Laravel.
 
 Now modify the code in luckara directory to build a web application as shown in the following image.
 
@@ -18,11 +16,11 @@ Each user has a unique username
 
 Each product has a unique id
 
-Create database tables with Laravel Migrations: https://laravel.com/docs/11.x/migrations
+Create database tables with Laravel Migrations: [https://laravel.com/docs/11.x/migrations](https://laravel.com/docs/11.x/migrations)
 
-Fill some data with Laravel DB Seeder: https://laravel.com/docs/11.x/seeding
+Fill some data with Laravel DB Seeder: [https://laravel.com/docs/11.x/seeding](https://laravel.com/docs/11.x/seeding)
 
-Build the pagination part with: https://laravel.com/docs/11.x/pagination
+Build the pagination part with: [https://laravel.com/docs/11.x/pagination](https://laravel.com/docs/11.x/pagination)
 
 You should known the usage of the following commands
 
@@ -37,7 +35,7 @@ php artisan migrate:fresh
 php artisan migrate:refresh
 
 
-Display data on the page with Laravel Blade: https://laravel.com/docs/11.x/blade
+Display data on the page with Laravel Blade: [https://laravel.com/docs/11.x/blade](https://laravel.com/docs/11.x/blade)
 
 ## Artisan Console
 
@@ -45,7 +43,7 @@ Artisan is the command line interface included with Laravel. Artisan exists at t
 
 php artisan listIt is an excellent tool for quickly realizing your ideas.
 
-Learn how to create command: https://laravel.com/docs/11.x/artisan
+Learn how to create command: [https://laravel.com/docs/11.x/artisan](https://laravel.com/docs/11.x/artisan)
 
 Then make the following commands:
 
