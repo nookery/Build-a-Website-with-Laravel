@@ -78,6 +78,16 @@ Feel free to raise a issue on GitHub, I will keep an eye on it.
 
 ✨✨✨ And do not forget to star the project if you found it helpful.
 
+There are several ways to view these documents:
+
+https://github.com/nookery/Build-a-Website-with-Laravel
+
+https://nookery.github.io/Build-a-Website-with-Laravel/
+
+https://www.kuaiyizhi.cn/ideas/F9134AAC-64CE-407F-88C7-602AF21756B3
+
+###### The content seen in the above ways is exactly the same, only the rendering styles are slightly different.
+
 ## About the Author
 
 A person who enjoys learning and exploring.
