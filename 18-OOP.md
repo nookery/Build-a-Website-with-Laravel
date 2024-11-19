@@ -4,7 +4,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" 
 
 ## Key Concepts of OOP
 
-### 1. Classes and Objects
+### Classes and Objects
 
 - **Class**: A class is a blueprint for creating objects. It defines properties (attributes) and methods (functions) that the objects created from the class can use.
 
@@ -28,7 +28,7 @@ $myCar-&gt;color = "red";
 
 $myCar-&gt;model = "Toyota";
 
-echo $myCar-&gt;drive(); // Output: Driving a red Toyota### 2. Inheritance
+echo $myCar-&gt;drive(); // Output: Driving a red Toyota### Inheritance
 
 Inheritance allows a class to inherit properties and methods from another class. This promotes code reusability.
 
@@ -63,7 +63,7 @@ $myBike -&gt; type = "mountain";
 
 echo $myBike -&gt; accelerate(); // Output: Accelerating at 20 km/h
 
-echo $myBike -&gt; bikeInfo(); // Output: This is a mountain bike.## 3. Encapsulation
+echo $myBike -&gt; bikeInfo(); // Output: This is a mountain bike.### Encapsulation
 
 Encapsulation is the concept of restricting access to certain components of an object. This is typically done using visibility keywords: public, protected, and private.
 
@@ -97,48 +97,39 @@ $user = new User();
 
 $user -&gt; setPassword("secret");
 
-echo $user -&gt; getPassword(); // Output: secret### 4. Polymorphism
+echo $user -&gt; getPassword(); // Output: secret### Polymorphism
 
 Polymorphism allows methods to do different things based on the object it is acting upon. This can be achieved through method overriding or interfaces.
 
 **Example**:
 
 class Animal {
-
-    public function sound() {
-
+    public function sound() 
+    {
         return "Some sound";
-
     }
-
 }
 
 class Dog extends Animal {
-
-    public function sound() {
-
+    public function sound() 
+    {
         return "Bark";
-
     }
 
 }
 
 class Cat extends Animal {
-
-    public function sound() {
-
+    public function sound() 
+    {
         return "Meow";
-
     }
-
 }
 
 $animals = [new Dog(), new Cat()];
 
-foreach($animals as $animal) {
-
+foreach($animals as $animal)
+{
     echo $animal -&gt; sound(); // Output: Bark Meow
-
 }## OOP in Laravel
 
 Laravel is a PHP framework that heavily utilizes OOP principles. Understanding OOP will help you grasp Laravel's architecture, including:

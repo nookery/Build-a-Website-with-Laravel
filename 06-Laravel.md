@@ -8,7 +8,9 @@ Laravel is a PHP framework. It provides many useful tools to help you build web 
 
 The word "Laravel" does not exist in English. How did this name come about? It is said that the creator of Laravel, Taylor Otwell, was inspired by Cair Paravel, the castle in the novel "The Chronicles of Narnia," and decided to name his framework Laravel.
 
-**If you encounter any issues, remember to check the official documentation for answers first.**[https://laravel.com/docs/11.x](https://laravel.com/docs/11.x)
+**If you encounter any issues, remember to check the official documentation for answers first.**
+
+https://laravel.com/docs/11.x
 
 ## Installation
 
@@ -26,14 +28,16 @@ Composer is a package manager for PHP. It helps you install and update the depen
 
 Check if Composer is already installed
 
-It's a bit different here, Composer's -V is an uppercase V.composer -VAnd you will see：
+It's a bit different here, Composer's -V is an uppercase V.
+
+composer -VAnd you will see：
 
 Composer version 2.7.2 2024-03-11 17:12:18
 PHP version 8.3.3 (/opt/homebrew/Cellar/php/8.3.3_1/bin/php)If Composere is not installed, you will see:
 
 command not found: composerIf that's the case, let's install it.
 
-Open the page: [https://getcomposer.org/download/](https://getcomposer.org/download/)
+Open the page: https://getcomposer.org/download/
 
 Run these commands:
 
@@ -74,7 +78,9 @@ Run the command “php artisan serve"
 
 ![](./images/06-Laravel_4.png)
 
-Server running on [http://127.0.0.1:8000]. Then open your browser you will see the beautiful page
+Server running on [http://127.0.0.1:8000].
+
+Then open your browser you will see the beautiful page
 
 ![](./images/06-Laravel_5.png)
 
@@ -84,7 +90,9 @@ After installation is complete, open the project with GitHub Desktop:
 
 github .![](./images/06-Laravel_6.png)
 
-If you are not logged in, please log in to GitHub Desktop first.Click “create a repository"
+If you are not logged in, please log in to GitHub Desktop first.
+
+Click “create a repository"
 
 ![](./images/06-Laravel_7.png)
 
@@ -104,6 +112,6 @@ Finally, click “View on GitHub” to open the browser to see the project.
 
 ## References
 
-**[https://laravel.com](https://laravel.com/)**
+**https://laravel.com**
 
-**[https://learnku.com/docs/laravel/10.x](https://learnku.com/docs/laravel/10.x)**
+**https://learnku.com/docs/laravel/10.x**

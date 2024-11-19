@@ -2,8 +2,9 @@
 
 ![](./images/02-VSCode_1.jpeg)
 
-
 Visual Studio Code (VS Code) is a popular code editor developed by Microsoft.
+
+Its code is open-source, and you can use it for free.
 
 ## Workspace
 
@@ -13,7 +14,7 @@ All the code you use in the future will be stored here.
 
 ## Install VS Code
 
-Go to the&nbsp;[Visual Studio Code website](https://code.visualstudio.com/) and download it and install it.
+Go to the&nbsp;Visual Studio Code website and download it and install it.
 
 Here is what it looks like
 

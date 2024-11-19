@@ -1,6 +1,10 @@
 # Kong
 
-This article is still in the draft stage, so its content may change.In today's microservices architecture, managing APIs effectively is crucial for ensuring smooth communication between services. Kong Gateway is a powerful API gateway that provides a robust solution for managing, securing, and monitoring your APIs. This article will introduce you to Kong Gateway, its features, and how to get started.
+This article is still in the draft stage, so its content may change.
+
+![](./images/26-Kong_1.jpeg)
+
+In today's microservices architecture, managing APIs effectively is crucial for ensuring smooth communication between services. Kong Gateway is a powerful API gateway that provides a robust solution for managing, securing, and monitoring your APIs. This article will introduce you to Kong Gateway, its features, and how to get started.
 
 What is Kong Gateway?Kong Gateway is an open-source API gateway built on top of NGINX. It acts as a middleware layer that sits between clients and your backend services, handling requests and responses. Kong provides a variety of features such as load balancing, security, traffic control, and monitoring, making it an essential tool for any organization that relies on APIs.
 
@@ -18,16 +22,16 @@ What is Kong Gateway?Kong Gateway is an open-source API gateway built on top of 
 
 ## Getting Started with Kong Gateway
 
-### Step 1: Installation
+### Installation
 
 Kong can be installed in various ways, including Docker, Kubernetes, or directly on your operating system. For beginners, using Docker is the simplest method.
 
-**Install Docker**: Ensure you have Docker installed on your machine. You can download it from [Docker's official website](https://www.docker.com/products/docker-desktop).
+**Install Docker**: Ensure you have Docker installed on your machine. You can download it from Docker's official website.
 
 **Run Kong in Docker**: Use the following command to start Kong:
 
 docker run -d --name kong-database \ -e "KONG_DATABASE=postgres" \ -e "POSTGRES_USER=kong" \ -e "POSTGRES_DB=kong" \ postgres:latest docker run -d --name kong \ --link kong-database:kong-database \ -e "KONG_DATABASE=postgres" \ -e "KONG_PG_HOST=kong-database" \ -p 8000:8000 \ -p 8443:8443 \ kong:latest
-### Step 2: Configuring Kong
+### Configuring Kong
 
 Once Kong is running, you can configure it using its Admin API. The Admin API allows you to manage services, routes, and plugins.
 
@@ -37,7 +41,7 @@ curl -i -X POST http://localhost:8001/services \ --data "name=my-service" \ --da
 **Add a Route**: A route defines how requests to your API are handled. You can add a route for the service you just created:
 
 curl -i -X POST http://localhost:8001/services/my-service/routes \ --data "hosts[]=example.com" \ --data "paths[]=/my-api"
-### Step 3: Using Plugins
+### Using Plugins
 
 Kong’s plugin system allows you to enhance your API with additional features. For example, you can add rate limiting to your service:
 

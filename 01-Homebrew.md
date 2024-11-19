@@ -4,9 +4,7 @@
 
 What is Homebrew?
 
-Homebrew is a package manager for macOS (or Linux), which simplifies the installation of software like Git, Node.js, Python, and Ruby.
-
-Simply put, it helps us install and manage software.
+It is a software helps us install and manage softwares.
 
 In the following steps, readers in mainland China may encounter installation failures due to network issues, so you may to address the network problems yourself.
 
@@ -42,7 +40,9 @@ brew upgrade wget**Uninstall Software**:
 
 brew uninstall wgetBy using these commands, you can familiarize yourself with the basic usage of Homebrew.
 
-**FAQ (Frequently Asked Questions)****How do I uninstall Homebrew?**https://docs.brew.sh/FAQ#how-do-i-uninstall-homebrew
+## FAQ
+
+**How do I uninstall Homebrew?**https://docs.brew.sh/FAQ#how-do-i-uninstall-homebrew
 
 If you encounter any issues, be sure to check the official documentation for answers first.
 

@@ -1,6 +1,10 @@
 # Docker
 
-This article is still in the draft stage, so its content may change.Docker is a containerization technology.
+This article is still in the draft stage, so its content may change.
+
+![](./images/24-Docker_1.png)
+
+Docker is a containerization technology.
 
 Docker has revolutionized the way developers build, ship, and run applications. It allows you to package applications in containers, which are lightweight, portable, and consistent across different environments. If you're a beginner looking to get started with Docker on macOS, this article will guide you through the installation and basic usage.
 
@@ -16,11 +20,11 @@ Why Use Docker?**Consistency**: Docker ensures that your application runs the sa
 
 ## Getting Started with Docker on macOS
 
-### Step 1: Install Docker Desktop
+### Install Docker Desktop
 
 **Download Docker Desktop**:
 
-Go to the&nbsp;[Docker Desktop for Mac](https://www.docker.com/products/docker-desktop)&nbsp;website and download the installer.
+Go to the&nbsp;Docker Desktop for Mac&nbsp;website and download the installer.
 
 
 **Install Docker Desktop**:
@@ -41,7 +45,7 @@ docker --version
 This command should return the installed version of Docker.
 
 
-### Step 2: Basic Docker Commands
+### Basic Docker Commands
 
 Now that you have Docker installed, let’s explore some basic commands.
 
@@ -86,7 +90,7 @@ To remove an image, use:
 
 docker rmi &lt;image_id&gt;
 
-### Step 3: Creating Your Own Dockerfile
+### Creating Your Own Dockerfile
 
 A Dockerfile is a script that contains instructions on how to build a Docker image.
 

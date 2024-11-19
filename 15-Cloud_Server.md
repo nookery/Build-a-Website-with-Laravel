@@ -1,6 +1,10 @@
 # Cloud Server
 
-This article is still in the draft stage, so its content may change.## What is Cloud Server
+This article is still in the draft stage, so its content may change.
+
+![](./images/15-Cloud_Server_1.jpeg)
+
+## What is Cloud Server
 
 Simply put, a cloud server is a computer that doesn’t shut down.
 
@@ -14,9 +18,9 @@ As a software developer, you may need a cloud server for the following reasons:
 
 ## How to Get a Cloud Server
 
-[https://cloud.tencent.com/act/pro/free](https://cloud.tencent.com/act/pro/free)
+https://cloud.tencent.com/act/pro/free
 
-[https://aws.amazon.com/ec2](https://aws.amazon.com/ec2)
+https://aws.amazon.com/ec2
 
 ## Install Softwares
 
@@ -30,7 +34,7 @@ Publish your project a cloud server so others can access it through a link like:
 
 http://123.456.3.4:8000
 
-![](./images/15-Cloud_Server_1.png)
+![](./images/15-Cloud_Server_2.png)
 
 ### Clone Project
 

@@ -1,6 +1,10 @@
 # MySQL
 
-This article is still in the draft stage, so its content may change.MySQL is one of the most popular relational database management systems (RDBMS) in the world. It is widely used for web applications and is known for its reliability, performance, and ease of use. If you're a beginner looking to get started with MySQL on macOS, this guide will walk you through the installation process and basic usage.
+This article is still in the draft stage, so its content may change.
+
+![](./images/27-MySQL_1.jpeg)
+
+MySQL is one of the most popular relational database management systems (RDBMS) in the world. It is widely used for web applications and is known for its reliability, performance, and ease of use. If you're a beginner looking to get started with MySQL on macOS, this guide will walk you through the installation process and basic usage.
 
 What is MySQL?MySQL is an open-source RDBMS that uses Structured Query Language (SQL) for accessing and managing data. It allows you to create, read, update, and delete data efficiently. MySQL is commonly used in conjunction with web development technologies such as PHP, Python, and Ruby on Rails.
 
@@ -14,7 +18,7 @@ Why Use MySQL?**Open Source**: MySQL is free to use and can be modified to suit 
 
 ## Getting Started with MySQL on macOS
 
-### Step 1: Installation
+### Installation
 
 There are several ways to install MySQL on macOS. The easiest method is to use Homebrew, a popular package manager for macOS.
 
@@ -30,13 +34,13 @@ brew services start mysql
 **Secure MySQL Installation**: Run the security script to set a root password and secure your installation:
 
 mysql_secure_installation
-### Step 2: Accessing MySQL
+### Accessing MySQL
 
 To access the MySQL command-line interface, use the following command:
 
 mysql -u root -pYou will be prompted to enter the root password you set during the secure installation.
 
-### Step 3: Basic MySQL Commands
+### Basic MySQL Commands
 
 Once you are in the MySQL shell, you can start executing SQL commands. Here are some basic commands to get you started:
 
@@ -64,7 +68,7 @@ UPDATE users SET email = 'john.doe@example.com' WHERE name = 'John Doe';
 **Delete Data**: To delete data from the table:
 
 DELETE FROM users WHERE name = 'John Doe';
-### Step 4: Exiting MySQL
+### Exiting MySQL
 
 To exit the MySQL shell, simply type:
 

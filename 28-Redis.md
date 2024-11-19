@@ -1,6 +1,10 @@
 # Redis
 
-This article is still in the draft stage, so its content may change.Redis is an open-source, in-memory data structure store, often used as a database, cache, and message broker. It is known for its high performance, flexibility, and ease of use. This guide will help you get started with Redis on macOS, covering installation and basic usage.
+This article is still in the draft stage, so its content may change.
+
+![](./images/28-Redis_1.jpeg)
+
+Redis is an open-source, in-memory data structure store, often used as a database, cache, and message broker. It is known for its high performance, flexibility, and ease of use. This guide will help you get started with Redis on macOS, covering installation and basic usage.
 
 What is Redis?Redis (REmote DIctionary Server) is designed to handle high-speed data operations. It supports various data structures, such as strings, hashes, lists, sets, and sorted sets, making it versatile for different use cases, including caching, real-time analytics, and session management.
 
@@ -14,7 +18,7 @@ Why Use Redis?**Speed**: Being an in-memory store, Redis provides extremely fast
 
 ## Getting Started with Redis on macOS
 
-### Step 1: Installation
+### Installation
 
 The easiest way to install Redis on macOS is through Homebrew.
 
@@ -27,13 +31,13 @@ brew install redis
 **Start Redis Service**: After installation, you can start the Redis service:
 
 brew services start redis
-### Step 2: Accessing Redis
+### Accessing Redis
 
 To access the Redis command-line interface, use the following command:
 
 redis-cliYou will be greeted with a prompt where you can enter Redis commands.
 
-### Step 3: Basic Redis Commands
+### Basic Redis Commands
 
 Here are some basic commands to get you started with Redis:
 
@@ -59,7 +63,7 @@ LRANGE mylist 0 -1
 HSET myhash field1 "value1" HSET myhash field2 "value2"To retrieve a field from the hash:
 
 HGET myhash field1
-### Step 4: Exiting Redis
+### Exiting Redis
 
 To exit the Redis CLI, simply type:
 

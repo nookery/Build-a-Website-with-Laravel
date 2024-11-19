@@ -1,6 +1,10 @@
 # Https
 
-This article is still in the draft stage, so its content may change.HTTPS (HyperText Transfer Protocol Secure) is an extension of HTTP (HyperText Transfer Protocol) that adds a layer of security to the data exchanged between a user's browser and a web server. It is essential for protecting sensitive information and ensuring secure communication over the internet.
+This article is still in the draft stage, so its content may change.
+
+![](./images/29-Https_1.jpeg)
+
+HTTPS (HyperText Transfer Protocol Secure) is an extension of HTTP (HyperText Transfer Protocol) that adds a layer of security to the data exchanged between a user's browser and a web server. It is essential for protecting sensitive information and ensuring secure communication over the internet.
 
 What is HTTPS?HTTPS uses encryption to secure the data transmitted between the client (browser) and the server. This is achieved through SSL (Secure Sockets Layer) or TLS (Transport Layer Security) protocols, which encrypt the data, making it difficult for unauthorized parties to intercept or tamper with the information.
 

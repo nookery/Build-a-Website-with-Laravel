@@ -1,6 +1,10 @@
 # Nginx
 
-This article is still in the draft stage, so its content may change.What is Nginx?Nginx (pronounced "engine-x") is a high-performance web server and reverse proxy server designed for maximum stability, scalability, and low resource consumption. It was created by Igor Sysoev and released in 2004. Nginx is known for its ability to handle a large number of simultaneous connections, making it a popular choice for serving static content, load balancing, and as a gateway for dynamic web applications.
+This article is still in the draft stage, so its content may change.
+
+![](./images/23-Nginx_1.jpeg)
+
+What is Nginx?Nginx (pronounced "engine-x") is a high-performance web server and reverse proxy server designed for maximum stability, scalability, and low resource consumption. It was created by Igor Sysoev and released in 2004. Nginx is known for its ability to handle a large number of simultaneous connections, making it a popular choice for serving static content, load balancing, and as a gateway for dynamic web applications.
 
 ## Why Choose Nginx
 
@@ -24,25 +28,11 @@ Nginx can be installed on various operating systems, including Linux, Windows, a
 
 - **On Debian/Ubuntu**:
 
-```bash
-
 sudo apt update
-
-sudo apt install nginx
-
-```
-
-- **On CentOS/RHEL**:
-
-```bash
+sudo apt install nginx- **On CentOS/RHEL**:
 
 sudo yum install epel-release
-
-sudo yum install nginx
-
-```
-
-- **On Windows**:
+sudo yum install nginx- **On Windows**:
 
 Download the latest stable version from the [official Nginx website](http://nginx.org/en/download.html) and extract it to a directory. Use the command prompt to run nginx.exe.
 
@@ -50,21 +40,9 @@ Download the latest stable version from the [official Nginx website](http://ngin
 
 After installing Nginx, you can start it using the following command:
 
-```bash
+sudo systemctl start nginxTo make sure that Nginx starts on boot, use:
 
-sudo systemctl start nginx
-
-```
-
-To make sure that Nginx starts on boot, use:
-
-```bash
-
-sudo systemctl enable nginx
-
-```
-
-#### Nginx Configuration File
+sudo systemctl enable nginx#### Nginx Configuration File
 
 The main configuration file for Nginx is typically located at /etc/nginx/nginx.conf. This file controls the behavior of the server, and its structure can be broken down into several key components:
 
@@ -109,21 +87,9 @@ http {
 
 After modifying your configuration file, check for syntax errors with the command:
 
-```bash
+sudo nginx -tIf the test is successful, reload Nginx to apply changes:
 
-sudo nginx -t
-
-```
-
-If the test is successful, reload Nginx to apply changes:
-
-```bash
-
-sudo systemctl reload nginx
-
-```
-
-## Common Use Cases
+sudo systemctl reload nginx## Common Use Cases
 
 - **Static Website Hosting**: Nginx can serve static websites efficiently.
 

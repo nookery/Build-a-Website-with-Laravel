@@ -10,13 +10,25 @@ How do these apps operate the computer?
 
 These apps actually operate the computer through commands.
 
-![](./images/00-The_Terminal_APP_1.png)
-
-### Say Hello to the Terminal App
+### Say Hello to the Terminal APP
 
 Every macOS user has a Terminal app. It is the most powerful tool in our arsenal. You can operate all the commands through the Terminal app.
 
 I recommend that you pin the terminal app to the dock, as you will be using it frequently in the future.
+
+![](./images/00-The_Terminal_APP_1.png)
+
+What does the text in it mean?
+
+Last login: ...
+
+Indicates the time of the last login.
+
+angel@Angeldexuniji...
+
+Means: username@machine_name
+
+You can set your machine name here as you like:
 
 ![](./images/00-The_Terminal_APP_2.png)
 

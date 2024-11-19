@@ -1,5 +1,7 @@
 # Laravel Livewire
 
+![](./images/20-Laravel_Livewire_1.jpeg)
+
 What is Laravel Livewire?Laravel Livewire is a powerful front-end framework that simplifies the process of building dynamic user interfaces. It allows developers to leverage Laravel's backend capabilities to create modern, responsive applications without writing a lot of JavaScript code.
 
 ## Installing Livewire

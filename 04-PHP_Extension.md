@@ -10,9 +10,9 @@ php -m## Install Extensions with PECL
 
 **PECL (PHP Extension Community Library)** is an extension library for PHP that provides many optional extensions.
 
-You can check if it's installed by running pecl version.
+You can check if it's installed by running
 
-Redis is a commonly used software, and sometimes you may want it to work with PHP, so you need to install the Redis extension for PHP.
+pecl versionRedis is a commonly used software, and sometimes you may want it to work with PHP, so you need to install the Redis extension for PHP.
 
 pecl install redisDuring the installation process, you may be prompted to provide additional information, such as the path to your PHP configuration file. If so, simply follow the prompts.
 

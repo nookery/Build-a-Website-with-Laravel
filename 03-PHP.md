@@ -4,7 +4,7 @@
 
 ## Instruction
 
-PHP, which stands for "Hypertext Preprocessor," is a popular server-side scripting language used for web development. In this article, we will introduce you to PHP, discuss its features and capabilities and guide you through the process of installing and using PHP on macOS.
+PHP, which stands for "Hypertext Preprocessor," is a popular server-side scripting language used for web development.
 
 PHP can perform a range of tasks, but its main purpose is still to create websites.
 
@@ -14,15 +14,17 @@ Sometimes you may encounter simple questions, such as how to format time, how to
 
 Here are some great AI assistants:
 
-[https://sider.ai/download](https://sider.ai/download)
+https://sider.ai
 
-[https://openai.com/chatgpt/mac/](https://openai.com/chatgpt/mac/)
+https://openai.com/chatgpt/mac/
 
-[https://monica.im](https://monica.im/)
+https://monica.im
 
 ## Installation on macOS
 
 ### Install PHP
+
+There are many ways to install PHP, but here we choose the most common and simplest method: installing using Homebrew.
 
 Once Homebrew is installed you can install PHP by running the following command:
 
@@ -34,11 +36,18 @@ brew install phpAt the end of the installation process, you will see something l
 
 To verify that PHP is installed, run the following command in Terminal:
 
-php -v## Say Hello to PHP
+php -vThis will output the PHP version information, like this:
+
+PHP 8.3.12 (cli) (built: Sep 24 2024 18:08:04) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.12, Copyright (c) Zend Technologies
+    with Zend OPcache v8.3.12, Copyright (c), by Zend TechnologiesPerhaps what you see here is not exactly the same, but the format is consistent.
+
+## Say Hello to PHP
 
 Next, you will learn how to run a PHP file.
 
-My workspace folder is: ~/Code, so open it with this command:
+My workspace folder is: ~/Code, so I open it with this command:
 
 cd ~/Code &amp;&amp; code .Here is the result:
 
@@ -82,7 +91,9 @@ php time.php
 If you see the following output, congratulations! You have successfully printed the time.
 
 2021-12-31 16:45:09
-If you find something difficult to deal with, ask your AI assistant without hesitation### Function
+If you find something difficult to deal with, ask your AI assistant without hesitation.
+
+### Function
 
 Create a new file called function.php in your workspace folder.
 

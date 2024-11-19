@@ -1,6 +1,8 @@
 # CI/CD
 
-This article is still in the draft stage, so its content may change.## GitHub
+This article is still in the draft stage, so its content may change.
+
+## GitHub
 
 git clone https://gitclone.com/github.com/xxx
 
@@ -63,9 +65,9 @@ In conclusion, GitHub Actions is a game-changer for developers, providing an eff
 
 ### References
 
-[https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
+https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners
 
-[https://github.com/features/actions](https://github.com/features/actions)
+https://github.com/features/actions
 
 ## GitLab CI
 
